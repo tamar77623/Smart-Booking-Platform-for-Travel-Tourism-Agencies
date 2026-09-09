@@ -17,7 +17,7 @@ body{
         center/cover no-repeat;
 }
 
-.contanier{
+.container{
     width:100%;
     max-width:500px;
     padding:32px;
@@ -31,8 +31,8 @@ body{
     backdrop-filter:blur(15px);
 }
 
-.contanier input,
-.contanier select{
+.container input,
+.container select{
     width:100%;
     height:52px;
     padding:0 16px;
@@ -45,19 +45,19 @@ body{
     transition:.25s ease;
 }
 
-.contanier input::placeholder{
+.container input::placeholder{
     color:#8b98a4;
 }
 
-.contanier input:focus,
-.contanier select:focus{
+.container input:focus,
+.container select:focus{
     border-color:#168aad;
     background:#fff;
     box-shadow:0 0 0 4px rgba(22,138,173,.12);
     transform:translateY(-1px);
 }
 
-.contanier select{
+.container select{
     cursor:pointer;
     appearance:none;
     padding-right:45px;
@@ -71,7 +71,7 @@ body{
     background-repeat:no-repeat;
 }
 
-.contanier label{
+.container label{
     margin-top:2px;
     margin-bottom:-8px;
     padding-right:4px;
@@ -80,12 +80,12 @@ body{
     font-weight:600;
 }
 
-.contanier input[type="date"]{
+.container input[type="date"]{
     color:#45545f;
     cursor:pointer;
 }
 
-.contanier button{
+.container button{
     width:100%;
     min-height:54px;
     margin-top:5px;
@@ -100,13 +100,13 @@ body{
     transition:.25s ease;
 }
 
-.contanier button:hover{
+.container button:hover{
     transform:translateY(-2px);
     box-shadow:0 14px 30px rgba(8,127,156,.35);
     background:linear-gradient(135deg,#076f89,#0d96b5);
 }
 
-.contanier button:active{
+.container button:active{
     transform:translateY(0);
     box-shadow:0 6px 15px rgba(8,127,156,.2);
 }
@@ -116,28 +116,30 @@ body{
         padding:15px;
     }
 
-    .contanier{
+    .container{
         max-width:100%;
         padding:23px 18px;
         border-radius:20px;
         gap:14px;
     }
 
-    .contanier input,
-    .contanier select{
+    .container input,
+    .container select{
         height:50px;
         font-size:14px;
     }
 
-    .contanier button{
+    .container button{
         min-height:52px;
         font-size:15px;
     }
 }
+
 h3{
     text-align: center;
     color: #17212b;
 }
+
 span{
     text-align: center;
     font-weight: bolder;
